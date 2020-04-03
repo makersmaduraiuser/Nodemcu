@@ -10,7 +10,7 @@ int lastState = 0;
 
 void setup()
 {
-  Serial.begin(9600);
+  Serial.begin(115200);
   Blynk.begin(auth, "abcdefgh", "0123456789");  //wifi name and password
   pinMode(sensorPin, INPUT);
 }
